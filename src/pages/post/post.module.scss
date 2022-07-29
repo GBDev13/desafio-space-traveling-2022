@@ -40,37 +40,24 @@
 
 .postTop {
   margin-bottom: 4rem;
-  > h1 {
+
+  h1 {
     font-size: 3rem;
     color: var(--heading);
     margin-bottom: 1.5rem;
   }
 
-  > ul {
-    padding: 0;
-    margin: 0;
+  ul {
     list-style: none;
     display: flex;
+    gap: 1.625rem;
 
-    & li {
-      margin: 0;
+    li {
       font-size: 0.875rem;
 
-      & svg {
+      svg {
         margin-right: 0.5rem;
       }
-
-      & + li {
-        margin-left: 1.625rem;
-      }
     }
-  }
-
-  > span {
-    margin-top: 1rem;
-    display: block;
-    font-style: italic;
-    font-size: 0.875rem;
-    color: var(--info);
   }
 }

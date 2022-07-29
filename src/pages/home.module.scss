@@ -1,17 +1,17 @@
 .posts {
-  margin-top: 2em;
+  margin-top: 2rem;
 
   > a {
     display: block;
-  }
 
-  a + a {
-    margin-top: 3rem;
+    & + a {
+      margin-top: 3rem;
+    }
   }
 
   button {
     border: none;
-    background: transparent;
+    background: none;
     font-weight: 600;
     font-size: 1.125rem;
     color: var(--highlight);
@@ -35,16 +35,13 @@
     list-style: none;
     margin-top: 1.5rem;
     display: flex;
+    gap: 1.625rem;
 
-    & li {
+    li {
       font-size: 0.875rem;
 
-      & svg {
+      svg {
         margin-right: 0.5rem;
-      }
-
-      & + li {
-        margin-left: 1.625rem;
       }
     }
   }
